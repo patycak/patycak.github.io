@@ -85,3 +85,23 @@ body {
 .h-dvh {
     height: 100dvh;
 }
+
+.nav {
+    display       : flex;
+    flex-direction: column;
+}
+
+.nav a {
+    color: var(--theme-accent-content) ;
+    text-decoration: none;
+    padding: 2px;
+    font-size: 1.25rem;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.nav a:hover {
+    color     : var(--theme-accent-content) ;
+    background: var(--theme-accent)
+}
