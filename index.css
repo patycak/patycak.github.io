@@ -1,0 +1,107 @@
+*{
+    inset: 0;
+    margin: 0;
+    padding:0;
+
+    --theme-primary   : #082D0F ;
+    --theme-secondary : #17B890 ;
+    --theme-accent    : #5E807F ;
+    --theme-surface   : #335747 ;
+
+    --theme-primnary-content  : #9DC5BB ;
+    --theme-secondary-content : #5E807F ;
+    --theme-accent-content    : #17B890 ;
+    --theme-surface-content   : #7CC2B1 ;
+
+    color : var(--theme-surface-content);
+}
+
+body {
+    background : var(--theme-surface);
+}
+
+.bg-primary {
+    background: var (--theme-primary)
+}
+
+.bg-secondary {
+    background: var(--theme-secondary)
+}
+
+.bg.accent {
+    background: var(--theme-accent)
+}
+
+.bg.surface {
+    background: var(--theme-surface)
+}
+
+.text-primary-content {
+    color: var(--theme-primnary-content)
+}
+
+.text-secondary-content {
+    color: var(--theme-secondary-content)
+}
+
+.text-accent-content {
+    color: var(--theme-accent-content)
+}
+
+.text-surface-content {
+    color: var(--theme-surface-content)
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.pfp {
+    height       : 200px;
+    border-radius: 100%;
+    border-style : solid;
+    border-width : .25em;
+    border-color : #003153;
+}
+
+.w-dvw {
+    width : 100dvw;
+}
+
+.h-dvh {
+    height: 100dvh;
+}
+
+.nav {
+    display       : flex;
+    flex-direction: column;
+}
+
+.nav a {
+    color: var(--theme-accent-content) ;
+    text-decoration: none;
+    padding: 2px;
+    font-size: 1.25rem;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.nav a:hover {
+    color     : var(--theme-accent-content) ;
+    background: var(--theme-accent)
+}
