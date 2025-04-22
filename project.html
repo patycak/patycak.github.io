@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./index.css">
+        <title>Patrick Wannberg</title>
+    </head>
+    <body>
+       <div class="flex-col justify-center align-center w-dvw h-dvh">
+            <img src="./pfp_ig.jpg" class = "pfp">
+           <hl class="text-primary">Patrick Wannberg</hl>
+        <div class="projects">
+            <a class="Project" href="https://patycak.github.io/att">
+                <span class="project-title">Example</span>
+                <span class="project-description">This is an example project.</span>
+            </a>
+        </div>
+       </div>
+       <style>
+        .projects {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        } 
+
+        .project {
+            display: flex;
+            flex-direction: column;
+            max-width: 300px;
+
+            text-decoration: none;
+            color: var(--theme-primary-content);
+            background: var(--theme-primary);
+            border-radius: 1em;
+            padding: 1em;
+        }
+
+        .project.hover {
+            background: var(--theme-secondary);
+            color: var(--theme-secondary-content);
+        }
+
+        .project-title {
+            font-size: 1em;
+            text-align: center;
+            font-style: italic;
+        }
+
+        .text-description {
+            color: var(--theme-primary-content);
+            font-size: 1em;
+            text-align: center;
+            font-style: italic;
+        }
+       </style>
+    </body>
+</html>
